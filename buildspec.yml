@@ -7,7 +7,7 @@ phases:
   pre_build:
     commands:
       - AWS_DEFAULT_REGION="ap-northeast-1"
-      - AWS_ACCOUNT_ID=$(awss sts get-caller-identity --query 'Account' --output text)
+      - AWS_ACCOUNT_ID="353981446712
       - $(aws ecr get-login --region $AWS_DEFAULT_REGION --no-include-email)
       - REPO=$(aws ecr describe-repositories --repository-names example --output text --query "repositories[0].repositoryUri")
       - IMAGE=$REPO:latest
