@@ -1,3 +1,3 @@
-# pragmatic_terraform_test
+# App for Pragmatic Terraform on AWS
 
-This Repository is practice for Terraform $ AWS Cloud Native Architecture.
+This Repository is practice for Terraform and AWS Cloud Native Architecture.
